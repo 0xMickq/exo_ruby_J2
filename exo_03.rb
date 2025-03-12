@@ -5,4 +5,4 @@ print ">"
 #On récupere la donnée de l'utilisateur
 user_birth_date = gets.chomp.to_i
 #On renvoie à l'utilisateur "Vous aviez sonAge ans en 2017" grâce a la fonction qu'on a créer plus haut
-puts "Vous aviez #{2017 - user_age} ans en 2017 !"
+puts "Vous aviez #{2017 - user_birth_date} ans en 2017 !"
